@@ -44,7 +44,7 @@ form.addEventListener('submit', (event) =>{
 
     event.preventDefault();
 
-    renderPokemon(buscarpokemon.value).toLowerCase();
+    renderPokemon(buscarpokemon.value.toLowerCase());
 });
 
 buttonPrev.addEventListener('click', () =>{
