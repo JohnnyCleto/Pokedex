@@ -53,9 +53,9 @@ const buscarPokemon = async (pokemon) => {
 const renderPokemon = async (pokemon) => {
     pokemonName.innerHTML = 'Loading...';
     pokemonNumber.innerHTML = '';
-    pokemonImage.src = '';  // Limpa a imagem anterior
-    pokemonImage.style.display = 'none';  // Oculta a imagem enquanto carrega
-    pokemonInfo.innerHTML = '';  // Limpa informações anteriores
+    pokemonImage.src = '';  
+    pokemonImage.style.display = 'none';  
+    pokemonInfo.innerHTML = '';  
     
 
     const data = await buscarPokemon(pokemon);
@@ -65,8 +65,8 @@ const renderPokemon = async (pokemon) => {
         pokemonNumber.innerHTML = `#${data.id.toString().padStart(3, '0')}`;
 
         const imageUrl = data.sprites?.versions?.['generation-v']?.['black-white']?.animated?.['front_default'];
-        pokemonImage.src = imageUrl || 'https://via.placeholder.com/200'; // Imagem padrão
-        pokemonImage.style.display = 'block'; // Mostra a imagem
+        pokemonImage.src = imageUrl || 'https://via.placeholder.com/200'; 
+        pokemonImage.style.display = 'block'; 
 
         buscarpokemon.value = '';
         searchpokemon = data.id;
