@@ -149,3 +149,51 @@ main {
 .error {
   border: 2px solid red;
 }
+
+@media (max-width: 480px) {
+  .pokedex {
+    max-width: 250px;
+    bottom: 20px;
+  }
+
+  .pokemon_image {
+    height: 150px;
+  }
+
+  .pokemon_data {
+    font-size: calc(6px + 1vw);
+    margin-bottom: 10px;
+  }
+
+  .pokemon_nome {
+    font-size: 16px;
+  }
+
+  .pokemon_numero {
+    font-size: 20px;
+  }
+
+  .pokemon_info {
+    font-size: calc(8px + 1vw);
+    margin: 10px 0;
+  }
+
+  .form {
+    top: 10%;
+  }
+
+  .buscarpokemon {
+    padding: 8px;
+    font-size: calc(6px + 1vw);
+  }
+
+  .buttons {
+    gap: 5px;
+  }
+
+  .button {
+    width: 70px;
+    font-size: calc(6px + 1vw);
+  }
+}
+
