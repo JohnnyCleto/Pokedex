@@ -150,34 +150,3 @@ main {
   border: 2px solid red;
 }
 
-
-@media (max-width: 768px) {
-  .pokedex {
-    max-width: 250px;
-  }
-
-  .pokemon_image {
-    height: 150px;
-  }
-
-  .pokemon_data {
-    top: 70%;
-    font-size: calc(6px + 1vw);
-  }
-
-  .form {
-    width: 85%;
-    top: 78%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .buttons {
-    width: 85%;
-    gap: 10px;
-  }
-
-  .button {
-    width: 80px;
-  }
-}
