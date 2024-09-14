@@ -45,7 +45,7 @@ main {
 
 .pokedex {
   width: 100%;
-  max-width: 350px;
+  max-width: 425px;
   position: absolute; 
   bottom: 50px;
   left: 50%;
@@ -149,4 +149,3 @@ main {
 .error {
   border: 2px solid red;
 }
-
