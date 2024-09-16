@@ -11,25 +11,26 @@
   <div id="left-side"></div>
   <div id="right-side"></div>
   <main>
-    <img src="#" alt="Pokemon" class="pokemon_image">
+        
+    <form class="form"> 
+        <input type="search" class="buscarpokemon" placeholder="nome ou ID" required>
+    </form>
 
     <h1 class="pokemon_data">
       <span class="pokemon_numero"></span> - 
       <span class="pokemon_nome"></span>
     </h1>
     
-    <form class="form"> 
-        <input type="search" class="buscarpokemon" placeholder="nome ou ID" required>
-    </form>
+    <img src="#" alt="Pokemon" class="pokemon_image">
 
-    <div class="pokemon_info"></div>
-
+    <img src="./images/pokedex.png" alt="Pokedex" class="pokedex">
     <div class="buttons">
       <button class="button btn-prev">Prev &lt;</button>
       <button class="button btn-next">Next &gt;</button>
     </div>
 
-    <img src="./images/pokedex.png" alt="Pokedex" class="pokedex">
+    <div class="pokemon_info"></div>
+
   </main>
 </body>
 <script src="js/script.js"></script>

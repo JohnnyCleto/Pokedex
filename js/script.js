@@ -53,8 +53,7 @@ const buscarPokemon = async (pokemon) => {
 const renderPokemon = async (pokemon) => {
     pokemonName.innerHTML = 'Loading...';
     pokemonNumber.innerHTML = '';
-    pokemonImage.src = '';  
-    pokemonImage.style.display = 'none';  
+    pokemonImage.src = ''; 
     pokemonInfo.innerHTML = '';  
     
 
