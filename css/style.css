@@ -22,7 +22,7 @@ main{
 
 .pokedex {
   width: 100%;
-  max-width: 350px;
+  max-width: 360px;
 }
 
 .pokemon_image{
@@ -101,7 +101,7 @@ main{
 
 #left-side, #right-side {
   width: 50%;
-  height: 100vh; 
+  height: 109vh; 
   position: absolute;
   top: 0;
   bottom: 0;
