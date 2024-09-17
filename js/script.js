@@ -1,7 +1,7 @@
 const tipoCores = {
     fairy: "#F4A6B4",
-    steel: "#D2D2D2",
-    dark: "#4F4F4F",
+    steel: "#798899",
+    dark: "#000000",
     ghost: "#735797",
     dragon: "#6D28D9",
     electric: "#F6D02F",  
@@ -9,15 +9,16 @@ const tipoCores = {
     water: "#6390F0",
     grass: "#7AC74C",
     fire: "#FBA54D",      
-    fighting: "#D04D4D",  
+    fighting: "#6e6e6e;",  
     poison: "#A0338C",
     ground: "#E2BF65",    
     flying: "#A0A0E0",    
     psychic: "#F37176",   
     bug: "#A6B91A",       
     rock: "#B6A136",     
-    normal: "#A8A77D"     
+    normal: "#ffffff"     
 };
+
 
 
 const pokemonName = document.querySelector('.pokemon_nome');
