@@ -8,7 +8,7 @@ const tipoCores = {
     ice: "#98D8D8",
     water: "#6390F0",
     grass: "#7AC74C",
-    fire: "#FBA54D",      
+    fire: "#ff0e0e",      
     fighting: "#6e6e6e;",  
     poison: "#A0338C",
     ground: "#E2BF65",    
