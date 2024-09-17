@@ -16,7 +16,7 @@ const tipoCores = {
     psychic: "#F37176",   
     bug: "#A6B91A",       
     rock: "#B6A136",     
-    normal: "#ffffff"     
+    normal: "#f79839"     
 };
 
 

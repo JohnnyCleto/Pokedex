@@ -124,8 +124,11 @@ main{
   left: 50%; 
   transform: translate(-50%, -60%); 
   font-weight: 600;
-  color: #36cc4a;
+  color: #2a2296;
   font-size:  10px; 
+  background-color: #fffcfc;
+  border: solid 10px white;
+  border-radius: 5px;
 }
 
 .error {
